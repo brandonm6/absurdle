@@ -20,11 +20,13 @@ tags: game
 * A summary of your project
 abstract:
 ---
-Absurdle is a harder version of Wordle--instead of starting with a set solution,
-it has a list of potential solutions that the user must narrow down with guesses so
-that only one remains. The remaining potential solutions after each guess are those
+I recreated Absurdle, as found here: https://qntm.org/files/absurdle/absurdle.html.
+Absurdle is a harder version of Wordle--instead of starting with a set solution, it
+has a list of potential solutions that the user must narrow down with guesses so that
+only one remains. The remaining potential solutions after each guess are those
 associated with the largest-sized "bucket," which is the largest set of potential
-solutions matching a possible color pattern response to the user's guess. The user
-has eight guesses by default but can specify a lower maximum number of guesses using
-an integer command-line argument.
+solutions matching a possible color pattern response to the user's guess. The user may
+enter a guess by pressing keys on the keyboard or by clicking keys on the on-screen
+keyboard. By default, the maximum number of guesses is eight, but a lower maximum
+number may be specified using an integer command-line argument.
 ---
