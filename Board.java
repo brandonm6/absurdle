@@ -62,7 +62,7 @@ public class Board {
         // limit maxGuesses to at most eight b/c board becomes larger than screen
         int GUESS_LIMIT = 8;
         if (maxGuesses > GUESS_LIMIT) {
-            throw new IllegalArgumentException("Maximum number of guesses must "
+            throw new IllegalArgumentException("Maximum number of guesses can "
                                                        + "be at most eight.");
         }
         this.maxGuesses = maxGuesses;
@@ -125,7 +125,7 @@ public class Board {
             }
         }
     }
-    
+
     // returns the maximum # of letters per word (# of tiles per row)
     public int getMaxLetters() {
         return MAX_LTRS;
