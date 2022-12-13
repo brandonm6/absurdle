@@ -18,9 +18,19 @@ Final Project
  ******************************************************************************/
 
 [write the dates and help received here]
+https://qntm.org/files/absurdle/absurdle.html
+- I recreated the game, using the mechanics detailed at https://qntm.org/absurdle.
+- I used the array of "secret words" in the console to create the valid_solutions.txt
+ file.
+
+https://www.kaggle.com/datasets/bcruise/wordle-valid-words
+- I merged the csv of valid guesses with my list of valid solutions to create the
+valid_guesses.txt file.
+
 https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html
 - I used the isLetter method in the Absurdle.java file to ensure the tiles would
 only be updated with key presses that were letters.
+
 
 /******************************************************************************
  *  Write and sign the following student acknowledgment of original work.
