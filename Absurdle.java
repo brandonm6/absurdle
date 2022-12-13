@@ -68,6 +68,11 @@ public class Absurdle {
                     }
                     else if (Character.isLetter(nextIn) && guessLtrs.size() <
                             maxLetters) {
+                        /*
+                        https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html
+                        Using the isLetter method to ensure the tiles are only updated
+                        with key presses that are letters.
+                         */
                         String ltr = String.valueOf(nextIn);
                         guessLtrs.add(ltr);
                         board.addTile(ltr, curGuess, (guessLtrs.size() - 1));
